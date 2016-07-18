@@ -1,4 +1,5 @@
 /*
+Google font Fira Sans Reqular and Medium
 font-family: 'Fira Sans', sans-serif;
 regular 400
 medium 500
@@ -60,6 +61,7 @@ header {
 	letter-spacing: -.025em;
 	color: #000101;
 	opacity: .8;
+	-moz-transition: color 200ms ease-in-out;
 	transition: color 200ms ease-in-out;
 }
 
@@ -94,6 +96,7 @@ svg {
 	font-size: 14px;
 	font-weight: 500;
 	letter-spacing: .05em;
+	-moz-transition: color 200ms ease-in-out;
 	transition: color 200ms ease-in-out;
 }
 
@@ -102,6 +105,7 @@ svg {
 }
 
 .menu-link:after {
+	-moz-transition: all 200ms ease-in-out;
 	transition: all 200ms ease-in-out;
 }
 
@@ -202,6 +206,7 @@ svg {
 
 .account-link-icon:hover {
 	color: #fff;
+	-moz-transition: color 200ms ease-in-out;
 	transition: color 200ms ease-in-out;
 }
 
@@ -228,6 +233,7 @@ svg {
     border-radius: 100%;
     color: #eee;
 		vertical-align: middle;
+		-moz-transition: all 200ms ease-in-out;
 		transition: all 200ms ease-in-out;
 }
 
@@ -272,6 +278,7 @@ main .container {
 	color: #424f5e;
 	font-size: 16px;
 	font-weight: 400;
+	-moz-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
 }
 
@@ -294,6 +301,7 @@ main .container {
 	opacity: .8;
 	letter-spacing: .05em;
 	vertical-align: middle;
+	-moz-transition: opacity 200ms ease-in-out;
 	transition: opacity 200ms ease-in-out; 
 }
 
@@ -549,6 +557,8 @@ div.progress>div>p:last-of-type {
 }
 
 .rating .middle {
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
 	transform: translateY(10px);	
 }
 
